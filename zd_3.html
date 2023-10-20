@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zd_3</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 100%;
+            border: 1px solid black;
+        }
+        
+        td {
+            border: 1px solid black;
+        }
+        
+        h2 {
+            color: purple;
+            font-size: 3vw;
+        }
+        
+        p {
+            font-size: 3vw;
+            text-indent: 3em;
+            margin-bottom: 20;
+        }
+        
+        sans {
+            font-family: sans-serif;
+        }
+        
+        #a {
+            color: red;
+            font-style: oblique;
+            font-weight: bold;
+        }
+        
+        td {
+            font-size: 3vw;
+            padding: 0 5px 0 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>
+        <sparse>Таблицы</sparse> в HTML</h1>
+
+    <p>
+        <cyann>Одним из наиболее мощных и широко применяемых в
+            <sans><b_1><b>HTML</b></b_1></sans> средств являются
+            <b_2><i><sans>таблицы</sans></i></b_2>.</cyann>
+    </p>
+    <p style="text-align: right;">
+        <yell><u>Понятие табличного представления данных не нуждается в дополнительном пояснении.</u> </yell>
+        <gr>
+            <sans>
+                <sm>В HTML таблицы используются не только традиционно, как метод представления данных, но и как средство форматирования Web-страницы.</sm>
+            </sans>
+        </gr>
+        
+    </p>
+    <h2>Создание простейших HTML-таблиц</h2>
+    <style>
+        anotherSelection {
+            font-style: oblique;
+            font-weight: bold;
+        }
+        
+        purp {
+            background-color: magenta;
+            letter-spacing: -0.05em;
+        }
+        
+        .norl {
+            text-indent: 0px;
+            font-family: monospace;
+        }
+
+    </style>
+    <p class="norl">
+        <b_2>
+            <anotherSelection>
+                <purp>Описание</purp>
+            </anotherSelection>
+        </b_2> таблиц должно располагаться внутри раздела документа &ltBODY&gt</p>
+    <p class="ac"><sans>Каждая <span class="blue u">таблица</span> должна
+        <b_2>начинаться</b_2> тэгом &ltTABLE&gt и завершаться тэгом &lt/TABLE&gt</sans></p>
+    <p style="text-align: center;">
+        <gr><span class="blue"><anotherSelection>Каждая</anotherSelection></span> строка начинается тэгом &lttr&gt(Table Row) и завершаться тэгом &lt/TR&gt. <span id="cringe">Отдельная</span> ячейка в строке обрамляется парой тегов &ltTD&gt и &lt/TD&gt(Table Data) или &ltTH&gt и &lt/TH&gt(Table header)</gr>
+    </p>
+    <p class="ar b"> Таблица 1</p>
+    <h1 style="font-size: 20px; text-decoration: line-through;  font-style: oblique; font-family: cursive;">Математические выражения</h1>
+    <table>
+        <tr>
+            <td>Поле1</td>
+            <td style="background-color: black; color: white; font-family: monospace; font-size: 3vw;" class="b ac">Поле 2</td>
+            <td class="blue ar u b bc">Поле 3</td>
+            <td class="bp u b">
+                <sans><i>Поле 4</i></sans>
+            </td>
+            <td class="by">
+                <sparse>Поле</sparse> 5</td>
+        </tr>
+        <tr>
+            <td class="blue">(a+b)<sup>2</sup></td>
+            <td class="ac b">a<sup>2</sup>-b<sup>2</sup></td>
+            <td class="blue ar">(a-b)<sup>3</sup></td>
+            <td class="b">A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></td>
+            <td class="blue ac b">y=x<sup>2</sup></td>
+        </tr>
+    </table>
+    </body>
+</html>

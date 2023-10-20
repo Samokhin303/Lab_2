@@ -1,0 +1,62 @@
+sparse {
+    letter-spacing: 0.3em;
+}
+
+gr {
+    background-color: lightgrey;
+}
+
+yell {
+    background-color: yellow;
+}
+
+cyann {
+    background-color: cyan;
+}
+
+h1 {
+    font-size: 4vw;
+    text-align: center;
+    color: blue;
+}
+
+sm {
+    font-size: 2.5vw;
+}
+
+b_1 {
+    font-size: 3vw;
+}
+
+b_2 {
+    font-size: 4vw;
+}
+
+b_3 {
+    font-size: 5vw;
+}
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+.b{
+    font-weight: bold;    
+}
+.u{
+    text-decoration: underline;
+}
+.bc{
+    background-color: cyan;
+}
+.bp{
+    background-color: pink;
+}
+.by{
+    background-color: yellow;
+}
+.ac{
+    text-align: center;
+}
+.ar{
+    text-align: right;
+}

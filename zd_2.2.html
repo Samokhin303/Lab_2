@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zd_2.2</title>
+    <style>
+        body {
+            margin: 0;
+            margin-bottom: 5px; 
+        }
+        
+        table {
+            height: 100%;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table th {
+            border: 2px solid black;
+        }
+        
+        table td {
+            border: 2px solid black;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        body>div {
+            display: flex;
+            flex-direction: column;
+            align-content: stretch;
+            height: 98vh;
+        }
+        
+        .rest {
+            height: 100%;
+            //background-color: rgba(0, 255, 0, 0.1);
+        }
+        
+        .sqrc {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color:
+        }
+        
+        .sqr {
+            height: 100%;
+            aspect-ratio: 1/1;
+            //background-color: rgba(255, 0, 0, 0.4);
+        }
+        
+        .sqr td[colspan] {
+            background-color: aqua;
+        }
+        
+        .sqr td[rowspan] {
+            background-color: lemonchiffon;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>А.</h1>
+        <div class="rest">
+            <table>
+                <tbody>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"></td>
+                        <td></td>
+                        <td rowspan="3"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+        <h1>Б.</h1>
+        <div class="rest">
+            <div class="sqrc">
+                <div class="sqr">
+                    <table>
+                        <tr>
+                            <td colspan="8"> </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="6"></td>
+                            <td colspan="6"></td>
+                            <td rowspan="6"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4"></td>
+                            <td colspan="4"></td>
+                            <td rowspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"></td>
+                            <td style="background-color: red;"></td>
+                            <td style="background-color: blue;"></td>
+                            <td rowspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lime;"></td>
+                            <td style="background-color: yellow;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="8"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
